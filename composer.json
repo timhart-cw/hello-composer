@@ -1,0 +1,17 @@
+{
+    "name": "timhart/hello-composer",
+    "description": "A simple hello world app",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Hart",
+            "email": "tim@timhart.co.uk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"timhart\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
